@@ -1,0 +1,790 @@
+.conteiner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.conteiner .navbar {
+  display: flex;
+  padding: 10px;
+}
+.conteiner .navbar .navbar__logo {
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+.conteiner .navbar .navbar__menu {
+  width: 50%;
+}
+.conteiner .navbar .navbar__menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.conteiner .navbar .navbar__menu a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #8B8C8C;
+}
+.conteiner .navbar .navbar__menu a#blue {
+  color: rgb(113, 212, 212);
+}
+
+main {
+  background-color: rgb(233, 255, 255);
+}
+main img {
+  position: relative;
+  top: 0px;
+  left: 400px;
+}
+main h1 {
+  font-family: sans-serif;
+  font-size: 50px;
+  text-align: center;
+  position: absolute;
+  top: 170px;
+  left: 400px;
+}
+main span {
+  color: rgb(113, 212, 212);
+}
+
+button#b1 {
+  background-color: white;
+  padding: 15px 40px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  color: black;
+  font-family: sans-serif;
+  font-size: 15px;
+  position: absolute;
+  top: 600px;
+  left: 350px;
+}
+
+button#b2 {
+  background-color: white;
+  padding: 15px 40px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  color: black;
+  font-family: sans-serif;
+  font-size: 15px;
+  position: absolute;
+  top: 600px;
+  left: 520px;
+}
+
+button#b3 {
+  background-color: white;
+  padding: 15px 40px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  color: black;
+  font-family: sans-serif;
+  font-size: 15px;
+  position: absolute;
+  top: 600px;
+  left: 690px;
+}
+
+button#b40 {
+  background-color: white;
+  padding: 15px 40px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  color: black;
+  font-family: sans-serif;
+  font-size: 15px;
+  position: absolute;
+  top: 600px;
+  left: 850px;
+}
+
+button#b1:hover {
+  background-color: rgb(113, 212, 212);
+  color: white;
+}
+
+button#b2:hover {
+  background-color: rgb(113, 212, 212);
+  color: white;
+}
+
+button#b3:hover {
+  background-color: rgb(113, 212, 212);
+  color: white;
+}
+
+button#b40:hover {
+  background-color: rgb(113, 212, 212);
+  color: white;
+}
+
+.menu__cards1 {
+  background-color: white;
+  position: relative;
+  top: 235px;
+  left: 100px;
+  width: 500px;
+  border-radius: 5px;
+  border: 1px solid rgb(91, 175, 175);
+  padding: 25px;
+}
+.menu__cards1 h2#p7 {
+  position: absolute;
+  top: 15px;
+  left: 450px;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: rgb(91, 175, 175);
+}
+.menu__cards1 img {
+  border-radius: 10px;
+}
+.menu__cards1 h1 {
+  position: absolute;
+  top: 5px;
+  left: 170px;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+.menu__cards1 p {
+  position: absolute;
+  top: 50px;
+  left: 170px;
+  font-family: sans-serif;
+}
+.menu__cards1 button#b4 {
+  position: absolute;
+  left: 170px;
+  font-family: sans-serif;
+  top: 120px;
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.menu__cards1 button#b5 {
+  position: absolute;
+  left: 250px;
+  font-family: sans-serif;
+  top: 120px;
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.menu__cards1 button#b4:hover {
+  background-color: rgb(91, 175, 175);
+  color: white;
+}
+.menu__cards1 button#b5:hover {
+  background-color: rgb(91, 175, 175);
+  color: white;
+}
+
+.menu__cards2 {
+  background-color: white;
+  position: relative;
+  top: 50px;
+  left: 700px;
+  width: 500px;
+  border-radius: 5px;
+  border: 1px solid rgb(91, 175, 175);
+  padding: 25px;
+}
+.menu__cards2 img {
+  border-radius: 10px;
+}
+.menu__cards2 h2#p8 {
+  position: absolute;
+  top: 15px;
+  left: 450px;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: rgb(91, 175, 175);
+}
+.menu__cards2 h1 {
+  position: absolute;
+  top: 5px;
+  left: 170px;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+.menu__cards2 p {
+  position: absolute;
+  top: 50px;
+  left: 170px;
+  font-family: sans-serif;
+}
+.menu__cards2 button#b6 {
+  position: absolute;
+  left: 170px;
+  font-family: sans-serif;
+  top: 120px;
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.menu__cards2 button#b7 {
+  position: absolute;
+  left: 250px;
+  font-family: sans-serif;
+  top: 120px;
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.menu__cards2 button#b6:hover {
+  background-color: rgb(91, 175, 175);
+  color: white;
+}
+.menu__cards2 button#b7:hover {
+  background-color: rgb(91, 175, 175);
+  color: white;
+}
+
+.menu__cards3 {
+  background-color: white;
+  position: relative;
+  top: 70px;
+  left: 100px;
+  width: 500px;
+  border-radius: 5px;
+  border: 1px solid rgb(91, 175, 175);
+  padding: 25px;
+}
+.menu__cards3 img {
+  border-radius: 10px;
+}
+.menu__cards3 h2#p9 {
+  position: absolute;
+  top: 15px;
+  left: 450px;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: rgb(91, 175, 175);
+}
+.menu__cards3 h1 {
+  position: absolute;
+  top: 5px;
+  left: 170px;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+.menu__cards3 p {
+  position: absolute;
+  top: 50px;
+  left: 170px;
+  font-family: sans-serif;
+}
+.menu__cards3 button#b8 {
+  position: absolute;
+  left: 170px;
+  font-family: sans-serif;
+  top: 120px;
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.menu__cards3 button#b9 {
+  position: absolute;
+  left: 250px;
+  font-family: sans-serif;
+  top: 120px;
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.menu__cards3 button#b8:hover {
+  background-color: rgb(91, 175, 175);
+  color: white;
+}
+.menu__cards3 button#b9:hover {
+  background-color: rgb(91, 175, 175);
+  color: white;
+}
+
+.menu__cards4 {
+  background-color: white;
+  position: relative;
+  top: -115px;
+  left: 700px;
+  width: 500px;
+  border-radius: 5px;
+  border: 1px solid rgb(91, 175, 175);
+  padding: 25px;
+}
+.menu__cards4 img {
+  border-radius: 10px;
+}
+.menu__cards4 h2#p10 {
+  position: absolute;
+  top: 15px;
+  left: 450px;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: rgb(91, 175, 175);
+}
+.menu__cards4 h1 {
+  position: absolute;
+  top: 5px;
+  left: 170px;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+.menu__cards4 p {
+  position: absolute;
+  top: 50px;
+  left: 170px;
+  font-family: sans-serif;
+}
+.menu__cards4 button#b10 {
+  position: absolute;
+  left: 170px;
+  font-family: sans-serif;
+  top: 120px;
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.menu__cards4 button#b11 {
+  position: absolute;
+  left: 250px;
+  font-family: sans-serif;
+  top: 120px;
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.menu__cards4 button#b10:hover {
+  background-color: rgb(91, 175, 175);
+  color: white;
+}
+.menu__cards4 button#b11:hover {
+  background-color: rgb(91, 175, 175);
+  color: white;
+}
+
+.menu__cards5 {
+  background-color: white;
+  position: relative;
+  top: -90px;
+  left: 100px;
+  width: 500px;
+  border-radius: 5px;
+  border: 1px solid rgb(91, 175, 175);
+  padding: 25px;
+}
+.menu__cards5 img {
+  border-radius: 10px;
+}
+.menu__cards5 h2#p11 {
+  position: absolute;
+  top: 15px;
+  left: 450px;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: rgb(91, 175, 175);
+}
+.menu__cards5 h1 {
+  position: absolute;
+  top: 5px;
+  left: 170px;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+.menu__cards5 p {
+  position: absolute;
+  top: 50px;
+  left: 170px;
+  font-family: sans-serif;
+}
+.menu__cards5 button#b12 {
+  position: absolute;
+  left: 170px;
+  font-family: sans-serif;
+  top: 120px;
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.menu__cards5 button#b13 {
+  position: absolute;
+  left: 250px;
+  font-family: sans-serif;
+  top: 120px;
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.menu__cards5 button#b12:hover {
+  background-color: rgb(91, 175, 175);
+  color: white;
+}
+.menu__cards5 button#b13:hover {
+  background-color: rgb(91, 175, 175);
+  color: white;
+}
+
+.menu__cards6 {
+  background-color: white;
+  position: relative;
+  top: -275px;
+  left: 700px;
+  width: 500px;
+  border-radius: 5px;
+  border: 1px solid rgb(91, 175, 175);
+  padding: 25px;
+}
+.menu__cards6 img {
+  border-radius: 10px;
+}
+.menu__cards6 h2#p12 {
+  position: absolute;
+  top: 15px;
+  left: 450px;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: rgb(91, 175, 175);
+}
+.menu__cards6 h1 {
+  position: absolute;
+  top: 5px;
+  left: 170px;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+.menu__cards6 p {
+  position: absolute;
+  top: 50px;
+  left: 170px;
+  font-family: sans-serif;
+}
+.menu__cards6 button#b14 {
+  position: absolute;
+  left: 170px;
+  font-family: sans-serif;
+  top: 120px;
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.menu__cards6 button#b15 {
+  position: absolute;
+  left: 250px;
+  font-family: sans-serif;
+  top: 120px;
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.menu__cards6 button#b14:hover {
+  background-color: rgb(91, 175, 175);
+  color: white;
+}
+.menu__cards6 button#b15:hover {
+  background-color: rgb(91, 175, 175);
+  color: white;
+}
+
+.menu__cards7 {
+  background-color: white;
+  position: relative;
+  top: -250px;
+  left: 100px;
+  width: 500px;
+  border-radius: 5px;
+  border: 1px solid rgb(91, 175, 175);
+  padding: 25px;
+}
+.menu__cards7 img {
+  border-radius: 10px;
+}
+.menu__cards7 h2#p12 {
+  position: absolute;
+  top: 15px;
+  left: 450px;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: rgb(91, 175, 175);
+}
+.menu__cards7 h1 {
+  position: absolute;
+  top: 5px;
+  left: 170px;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+.menu__cards7 p {
+  position: absolute;
+  top: 50px;
+  left: 170px;
+  font-family: sans-serif;
+}
+.menu__cards7 button#b16 {
+  position: absolute;
+  left: 170px;
+  font-family: sans-serif;
+  top: 120px;
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.menu__cards7 button#b17 {
+  position: absolute;
+  left: 250px;
+  font-family: sans-serif;
+  top: 120px;
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.menu__cards7 button#b16:hover {
+  background-color: rgb(91, 175, 175);
+  color: white;
+}
+.menu__cards7 button#b17:hover {
+  background-color: rgb(91, 175, 175);
+  color: white;
+}
+
+.menu__cards8 {
+  background-color: white;
+  position: relative;
+  top: -435px;
+  left: 700px;
+  width: 500px;
+  border-radius: 5px;
+  border: 1px solid rgb(91, 175, 175);
+  padding: 25px;
+}
+.menu__cards8 img {
+  border-radius: 10px;
+}
+.menu__cards8 h2#p12 {
+  position: absolute;
+  top: 15px;
+  left: 450px;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: rgb(91, 175, 175);
+}
+.menu__cards8 h1 {
+  position: absolute;
+  top: 5px;
+  left: 170px;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+.menu__cards8 p {
+  position: absolute;
+  top: 50px;
+  left: 170px;
+  font-family: sans-serif;
+}
+.menu__cards8 button#b18 {
+  position: absolute;
+  left: 170px;
+  font-family: sans-serif;
+  top: 120px;
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.menu__cards8 button#b19 {
+  position: absolute;
+  left: 250px;
+  font-family: sans-serif;
+  top: 120px;
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.menu__cards8 button#b18:hover {
+  background-color: rgb(91, 175, 175);
+  color: white;
+}
+.menu__cards8 button#b19:hover {
+  background-color: rgb(91, 175, 175);
+  color: white;
+}
+
+.menu__cards9 {
+  background-color: white;
+  position: relative;
+  top: -410px;
+  left: 100px;
+  width: 500px;
+  border-radius: 5px;
+  border: 1px solid rgb(91, 175, 175);
+  padding: 25px;
+}
+.menu__cards9 img {
+  border-radius: 10px;
+}
+.menu__cards9 h2#p12 {
+  position: absolute;
+  top: 15px;
+  left: 450px;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: rgb(91, 175, 175);
+}
+.menu__cards9 h1 {
+  position: absolute;
+  top: 5px;
+  left: 170px;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+.menu__cards9 p {
+  position: absolute;
+  top: 50px;
+  left: 170px;
+  font-family: sans-serif;
+}
+.menu__cards9 button#b20 {
+  position: absolute;
+  left: 170px;
+  font-family: sans-serif;
+  top: 120px;
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.menu__cards9 button#b21 {
+  position: absolute;
+  left: 250px;
+  font-family: sans-serif;
+  top: 120px;
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.menu__cards9 button#b20:hover {
+  background-color: rgb(91, 175, 175);
+  color: white;
+}
+.menu__cards9 button#b21:hover {
+  background-color: rgb(91, 175, 175);
+  color: white;
+}
+
+.menu__cards10 {
+  background-color: white;
+  position: relative;
+  top: -595px;
+  left: 700px;
+  width: 500px;
+  border-radius: 5px;
+  border: 1px solid rgb(91, 175, 175);
+  padding: 25px;
+}
+.menu__cards10 img {
+  border-radius: 10px;
+}
+.menu__cards10 h2#p12 {
+  position: absolute;
+  top: 15px;
+  left: 450px;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: rgb(91, 175, 175);
+}
+.menu__cards10 h1 {
+  position: absolute;
+  top: 5px;
+  left: 170px;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+.menu__cards10 p {
+  position: absolute;
+  top: 50px;
+  left: 170px;
+  font-family: sans-serif;
+}
+.menu__cards10 button#b22 {
+  position: absolute;
+  left: 170px;
+  font-family: sans-serif;
+  top: 120px;
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.menu__cards10 button#b23 {
+  position: absolute;
+  left: 250px;
+  font-family: sans-serif;
+  top: 120px;
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.menu__cards10 button#b22:hover {
+  background-color: rgb(91, 175, 175);
+  color: white;
+}
+.menu__cards10 button#b23:hover {
+  background-color: rgb(91, 175, 175);
+  color: white;
+}
+
+button#b24 {
+  position: absolute;
+  left: 45%;
+  font-family: sans-serif;
+  top: 1800px;
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  padding: 15px 50px;
+  border-radius: 5px;
+}
+
+button#b24:hover {
+  background-color: rgb(91, 175, 175);
+  color: white;
+}/*# sourceMappingURL=main.css.map */
